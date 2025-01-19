@@ -14,7 +14,7 @@ const Service = () => {
 
   const services = [
     {
-      img: "/assets/img/service/",
+      img: "/assets/img/service/custom-furniture.jpg",
       icon: "/assets/img/service/table.svg",
       text: "Transform your home with our custom furniture design services.",
       date: "Updated: January 3, 2025",
@@ -27,7 +27,7 @@ const Service = () => {
         "From modern designs to timeless classics, let us craft furniture that reflects your unique taste.",
     },
     {
-      img: "/assets/img/service/",
+      img: "/assets/img/service/custom-cabinetry.jpg",
       icon: "/assets/img/service/cabinet.svg",
       text: "Enhance your home with expertly crafted cabinetry and storage solutions.",
       date: "Updated: January 3, 2025",
@@ -40,7 +40,7 @@ const Service = () => {
         "From kitchens to bathrooms, every cabinet is crafted with meticulous attention to detail.",
     },
     {
-      img: "/assets/img/service/",
+      img: "/assets/img/service/rustic-door.jpg",
       icon: "/assets/img/service/door.svg",
       text: "Add character to your space with handcrafted rustic barn doors.",
       date: "Updated: January 3, 2025",
@@ -53,7 +53,7 @@ const Service = () => {
         "Select from a variety of styles and finishes to create the perfect door that complements your home’s aesthetic.",
     },
     {
-      img: "/assets/img/service/",
+      img: "/assets/img/service/custom-shelving.jpg",
       icon: "/assets/img/service/bookshelf.svg",
       text: "Showcase your style with custom shelving solutions.",
       date: "Updated: January 3, 2025",
@@ -66,7 +66,7 @@ const Service = () => {
         "Let us help you organize and enhance your home with personalized shelving solutions.",
     },
     {
-      img: "/assets/img/service/",
+      img: "/assets/img/service/custom-deck.jpg",
       icon: "/assets/img/service/bbq.svg",
       text: "Elevate your outdoor space with custom wood structures.",
       date: "Updated: January 3, 2025",
@@ -79,7 +79,7 @@ const Service = () => {
         "Enjoy outdoor spaces that are perfect for relaxation and entertainment, built to last.",
     },
     {
-      img: "/assets/img/service/",
+      img: "/assets/img/service/custom-woodwork.jpg",
       icon: "/assets/img/service/tools.svg",
       text: "Bring your woodworking vision to life with our custom project services.",
       date: "Updated: January 3, 2025",
