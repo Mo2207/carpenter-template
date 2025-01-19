@@ -6,51 +6,50 @@ import SectionContainer from "../layout/SectionContainer";
 
 const newsData = [
   {
-    title: "New Keratin Treatment Service",
+    title: "Introducing Custom Furniture Services",
     date: "February 20, 2025",
     tag: "Services",
     image: "",
     content: [
-      "We are excited to introduce our professional keratin treatment service, designed to leave your hair smooth, shiny, and frizz-free.",
-      "Using the latest techniques and premium products, our keratin treatments ensure long-lasting results that keep your hair looking its best.",
-      "Visit us to learn more about this transformative service and schedule your appointment today!",
+      "We are excited to announce our custom furniture services, designed to bring your unique vision to life.",
+      "Our expert craftsmen use premium materials and techniques to create pieces that are both functional and beautiful.",
+      "Visit us to learn more about how we can help you transform your home with bespoke furniture.",
     ],
   },
   {
-    title: "Bridal Hair Styling Packages",
-    date: "February 1, 2025",
+    title: "Exclusive Outdoor Wood Structure Designs",
+    date: "February 1, 2024",
     tag: "Promotions",
     image: "",
     content: [
-      "Your wedding day deserves nothing less than perfection! Aurora Hair Spa now offers exclusive bridal hair styling packages tailored to your needs.",
-      "From timeless updos to modern waves, our expert stylists work closely with you to create your dream look for the big day.",
-      "Contact us to book your consultation and make your wedding day truly unforgettable.",
+      "Enhance your outdoor living spaces with our exclusive outdoor wood structure designs.",
+      "From pergolas to gazebos, we create custom pieces that blend functionality with style.",
+      "Contact us to book a consultation and take advantage of this limited-time promotion.",
     ],
   },
   {
-    title: "Balayage & Highlights Special Offer",
-    date: "January 26, 2025",
+    title: "Custom Cabinetry Special Offer",
+    date: "January 26, 2020",
     tag: "Promotions",
     image: "",
     content: [
-      "Achieve that perfect sun-kissed glow with our limited-time offer on balayage and highlights services.",
-      "Our color specialists use advanced techniques to create natural-looking tones that complement your style.",
-      "Don’t miss this opportunity to enhance your look – book your appointment now!",
+      "Upgrade your home with our custom cabinetry special offer.",
+      "Our team designs and builds cabinets that combine style and practicality, tailored to your space.",
+      "Don’t miss this chance to transform your interiors – schedule your appointment today!",
     ],
   },
   {
-    title: "Grand Opening of Aurora Hair Spa",
-    date: "January 9, 2025",
+    title: "Grand Opening of Haven Woodworks",
+    date: "January 9, 2016",
     tag: "Events",
     image: "",
     content: [
-      "We are thrilled to announce the grand opening of Aurora Hair Spa! Join us in celebrating this exciting milestone with exclusive offers and promotions.",
-      "Experience luxurious hair care and styling services designed to make you look and feel your best.",
-      "Book your appointment today and be part of the Aurora Hair Spa family!",
+      "We are thrilled to announce the grand opening of Haven Woodworks! Celebrate with us and explore exclusive promotions and giveaways.",
+      "Experience premium woodworking services, from custom furniture to cabinetry, tailored to your needs.",
+      "Visit us today and join the Haven Woodworks family for a journey of exceptional craftsmanship.",
     ],
-  }
+  },
 ];
-
 
 const News = () => {
 

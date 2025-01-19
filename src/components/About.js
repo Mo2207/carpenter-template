@@ -328,7 +328,7 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Haven Woodworking
+                              Haven Woodworks
                             </h3>
                             <span className="text-[14px]">
                               Founder and Lead Craftsman, specializing in custom carpentry and furniture design.
