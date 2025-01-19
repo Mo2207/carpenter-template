@@ -14,7 +14,7 @@ const portfolioData = [
   {
     title: "Custom Furniture Design",
     category: "Furniture Crafting",
-    image: "",
+    image: "/assets/img/portfolio/furniture-design.jpg",
     content: [
       "Transform your space with our bespoke furniture creations, crafted to your specifications.",
       "Our skilled carpenters design and build custom pieces that blend functionality and artistry.",
@@ -24,7 +24,7 @@ const portfolioData = [
   {
     title: "Precision Cabinetry",
     category: "Cabinetry & Storage",
-    image: "",
+    image: "/assets/img/portfolio/cabinetry.jpg",
     content: [
       "Maximize your storage solutions with our precision-built cabinetry.",
       "We create custom cabinets for kitchens, bathrooms, and living spaces that are both stylish and practical.",
@@ -34,7 +34,7 @@ const portfolioData = [
   {
     title: "Rustic Barn Doors",
     category: "Feature Doors",
-    image: "",
+    image: "/assets/img/portfolio/doors.jpg",
     content: [
       "Add a touch of charm with our handcrafted rustic barn doors.",
       "Our doors are made with premium materials, ensuring durability and a timeless look.",
@@ -44,7 +44,7 @@ const portfolioData = [
   {
     title: "Custom Shelving Solutions",
     category: "Shelving & Displays",
-    image: "",
+    image: "/assets/img/portfolio/shelving.jpg",
     content: [
       "Showcase your favorite items with our custom shelving solutions.",
       "From floating shelves to built-ins, we craft pieces that seamlessly integrate into your space.",
@@ -54,7 +54,7 @@ const portfolioData = [
   {
     title: "Outdoor Wood Structures",
     category: "Outdoor Living",
-    image: "",
+    image: "/assets/img/portfolio/deck.jpg",
     content: [
       "Elevate your outdoor spaces with our expertly crafted wood structures.",
       "From pergolas to custom decks, we bring your outdoor living dreams to life.",
@@ -64,7 +64,7 @@ const portfolioData = [
   {
     title: "Bespoke Woodworking Projects",
     category: "Custom Projects",
-    image: "",
+    image: "/assets/img/portfolio/bespoke.jpg",
     content: [
       "Bring your unique woodworking visions to life with our bespoke services.",
       "Our team collaborates with you to design and craft one-of-a-kind pieces tailored to your specifications.",
