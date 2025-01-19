@@ -11,12 +11,12 @@ const About = () => {
   ];
 
   const progressBarData = [
-    { bgcolor: "#662D91", completed: 95, title: "Haircuts & Styling" },
-    { bgcolor: "#662D91", completed: 90, title: "Balayage & Highlights" },
-    { bgcolor: "#662D91", completed: 85, title: "Root Touch-Ups" },
-    { bgcolor: "#662D91", completed: 95, title: "Luxury Blowouts" },
-    { bgcolor: "#662D91", completed: 80, title: "Keratin Treatments" },
-    { bgcolor: "#662D91", completed: 85, title: "Scalp Treatments" },
+    { bgcolor: "#662D91", completed: 95, title: "Custom Furniture Design" },
+    { bgcolor: "#662D91", completed: 90, title: "Precision Cabinetry" },
+    { bgcolor: "#662D91", completed: 85, title: "Home Renovations" },
+    { bgcolor: "#662D91", completed: 95, title: "Decks & Patios" },
+    { bgcolor: "#662D91", completed: 80, title: "Wooden Flooring Installation" },
+    { bgcolor: "#662D91", completed: 85, title: "Repairs & Restorations" },
   ];
 
   const services = [
@@ -53,14 +53,14 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between mt-[55px]">
               <div className="left w-[40%]">
                 <p className="mb-[15px]">
-                Welcome to <strong>Aurora Hair Spa</strong>, your sanctuary for style and relaxation. 
-                Our team of expert stylists are passionate about creating beautiful, personalized looks 
-                that celebrate your individuality and enhance your natural beauty.
+                  Welcome to <strong>Haven Woodworks</strong>, your destination for expert craftsmanship and timeless design. 
+                  Our team of skilled carpenters is dedicated to creating custom pieces that bring beauty, functionality, 
+                  and character to your home.
                 </p>
                 <p>
-                At Aurora Hair Spa, we offer a wide range of services, from precision haircuts to luxurious 
-                color treatments, all tailored to match your unique preferences. Our mission is to provide 
-                a calming, rejuvenating experience while helping you look and feel your absolute best.
+                  At Haven Woodworks, we specialize in a wide range of services, from handcrafted furniture to precision cabinetry, 
+                  all tailored to meet your unique vision. Our mission is to transform your spaces with exceptional quality and 
+                  attention to detail, ensuring results that stand the test of time.
                 </p>
               </div>
               <div className="right w-[50%]">
@@ -104,7 +104,7 @@ const About = () => {
                         className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                         href="#"
                       >
-                        auroraHairSpa@gmail.com
+                        HavenWoodworks@gmail.com
                       </a>
                     </span>
                   </li>
@@ -131,25 +131,25 @@ const About = () => {
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                   <ul>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Haircuts & Styling 
+                      Custom Furniture Design
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Balayage & Highlights  
+                      Precision Cabinetry
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Root Touch-Ups
+                      Home Renovations
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Luxury Blowouts  
+                      Decks & Patios
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Keratin Treatments 
+                      Wooden Flooring Installation
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Bridal Hair Styling 
+                      Custom Shelving Solutions
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Scalp Treatments 
+                      Repairs & Restorations
                     </li>
                   </ul>
                 </div>
@@ -163,25 +163,25 @@ const About = () => {
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                   <ul>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Haircare Innovations 
+                      Craftsmanship Excellence
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Sustainable Beauty  
+                      Sustainable Woodworking
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Client-Centered Experiences 
+                      Client-Focused Designs
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Precision & Creativity  
+                      Precision & Detail
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Relaxation & Wellness   
+                      Functional Elegance
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Transformative Style  
+                      Timeless Creations
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Creative Expression
+                      Inspired Woodworking
                     </li>
                   </ul>
                 </div>
@@ -244,7 +244,7 @@ const About = () => {
               </div> */}
             </div>
           </div>
-          {/* <div className="resume w-full h-auto clear-both float-left mb-[75px]">
+          <div className="resume w-full h-auto clear-both float-left mb-[75px]">
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between">
               <div className="education w-[40%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
@@ -259,14 +259,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2024
+                              2016
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Beauty Academy "World of Beauty"
+                              Woodcraft Academy
                             </h3>
-                            <span className="text-[14px]">Certificate</span>
+                            <span className="text-[14px]">
+                              Diploma in Advanced Carpentry and Woodworking.
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -274,14 +276,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2022
+                              2015
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Beauty Academy
+                              Red Seal Program
                             </h3>
-                            <span className="text-[14px]">Certificate</span>
+                            <span className="text-[14px]">
+                              Certified Journeyperson in Carpentry.
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -289,15 +293,15 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2016
+                              2010
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Vivienne Lash Art University
+                              Sustainable Design Institute
                             </h3>
                             <span className="text-[14px]">
-                              Certificate
+                              Certification in Eco-Friendly Construction Practices.
                             </span>
                           </div>
                         </div>
@@ -319,15 +323,15 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2018 - running
+                              2016 - present
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Envato Elements
+                              Haven Woodworking
                             </h3>
                             <span className="text-[14px]">
-                              Exclusive Author
+                              Founder and Lead Craftsman, specializing in custom carpentry and furniture design.
                             </span>
                           </div>
                         </div>
@@ -336,14 +340,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2015 - 2018
+                              2014 - 2016
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Avo Corporation
+                              Timberline Creations
                             </h3>
-                            <span className="text-[14px]">Content Manager</span>
+                            <span className="text-[14px]">
+                              Senior Woodworker, creating bespoke cabinetry and interior wood designs.
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -356,9 +362,11 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              FC Barcelona
+                              Rustic Edge Designs
                             </h3>
-                            <span className="text-[14px]">Football Player</span>
+                            <span className="text-[14px]">
+                              Apprentice Carpenter, learning precision woodcraft and foundational techniques.
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -367,7 +375,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <div className="partners w-full h-auto clear-both float-left mb-[92px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
               <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
