@@ -12,75 +12,76 @@ import { Detail, Soundcloud } from "./Popup";
 // hard-coded data for portfolio section
 const portfolioData = [
   {
-    title: "Elegant Haircut",
-    category: "Haircuts & Styling",
-    image: "/assets/img/portfolio/elegant-haircut.jpg",
+    title: "Custom Furniture Design",
+    category: "Furniture Crafting",
+    image: "",
     content: [
-      "Experience the ultimate in haircuts with our expert stylists who are dedicated to crafting the perfect style for you.",
-      "Whether you’re looking for a classic trim or a bold new look, our attention to detail ensures a result you’ll love.",
-      "Step into a world of luxury and let us transform your hairstyle with precision and care."
+      "Transform your space with our bespoke furniture creations, crafted to your specifications.",
+      "Our skilled carpenters design and build custom pieces that blend functionality and artistry.",
+      "Experience the luxury of furniture tailored perfectly to your style and needs."
     ],
   },
   {
-    title: "Balayage Perfection",
-    category: "Balayage & Highlights",
-    image: "/assets/img/portfolio/balayage-hair.jpg",
+    title: "Precision Cabinetry",
+    category: "Cabinetry & Storage",
+    image: "",
     content: [
-      "Achieve that sun-kissed glow with our exquisite balayage and highlighting services.",
-      "Our color specialists use advanced techniques to create a seamless, natural-looking blend of tones tailored to your style.",
-      "Let your hair shine with radiant highlights that enhance your beauty and add dimension to your look."
+      "Maximize your storage solutions with our precision-built cabinetry.",
+      "We create custom cabinets for kitchens, bathrooms, and living spaces that are both stylish and practical.",
+      "Every piece is crafted to enhance your home's functionality and aesthetic."
     ],
   },
   {
-    title: "Root Touch-Up Magic",
-    category: "Root Touch-Ups",
-    image: "/assets/img/portfolio/hair-roots.jpg",
+    title: "Rustic Barn Doors",
+    category: "Feature Doors",
+    image: "",
     content: [
-      "Say goodbye to grown-out roots with our professional root touch-up services.",
-      "We match your existing color perfectly, ensuring a flawless and refreshed appearance.",
-      "Keep your hair looking polished and vibrant with our quick and effective touch-up solutions."
+      "Add a touch of charm with our handcrafted rustic barn doors.",
+      "Our doors are made with premium materials, ensuring durability and a timeless look.",
+      "Customize your door to perfectly fit your space and style."
     ],
   },
   {
-    title: "Smooth Keratin",
-    category: "Keratin Treatments",
-    image: "/assets/img/portfolio/keratin-treatment.jpg",
+    title: "Custom Shelving Solutions",
+    category: "Shelving & Displays",
+    image: "",
     content: [
-      "Tame unruly hair with our transformative keratin treatments designed to leave your hair smooth and silky.",
-      "Our treatments reduce frizz, enhance shine, and improve manageability for a stunning finish.",
-      "Enjoy long-lasting results that keep your hair looking flawless, no matter the occasion."
+      "Showcase your favorite items with our custom shelving solutions.",
+      "From floating shelves to built-ins, we craft pieces that seamlessly integrate into your space.",
+      "Enjoy beautifully designed shelves that combine style and utility."
     ],
   },
   {
-    title: "Luxury Blowout",
-    category: "Luxury Blowouts",
-    image: "/assets/img/portfolio/blowout-hair.jpg",
+    title: "Outdoor Wood Structures",
+    category: "Outdoor Living",
+    image: "",
     content: [
-      "Indulge in a luxurious blowout that leaves your hair feeling soft, bouncy, and full of life.",
-      "Our stylists use premium products and expert techniques to create a polished, long-lasting look.",
-      "Perfect for any special event or simply treating yourself to a day of pampering."
+      "Elevate your outdoor spaces with our expertly crafted wood structures.",
+      "From pergolas to custom decks, we bring your outdoor living dreams to life.",
+      "Our designs are built to withstand the elements while maintaining beauty and functionality."
     ],
   },
   {
-    title: "Bridal Elegance",
-    category: "Bridal Hair Styling",
-    image: "/assets/img/portfolio/wedding-hair.jpg",
+    title: "Bespoke Woodworking Projects",
+    category: "Custom Projects",
+    image: "",
     content: [
-      "Make your wedding day unforgettable with our bespoke bridal hair styling services.",
-      "From timeless updos to soft waves, we create a look that complements your gown and enhances your natural beauty.",
-      "Trust our experienced team to ensure your hair is picture-perfect for your special day."
+      "Bring your unique woodworking visions to life with our bespoke services.",
+      "Our team collaborates with you to design and craft one-of-a-kind pieces tailored to your specifications.",
+      "No project is too intricate—let's create something extraordinary together."
     ],
-  }
+  },
 ];
+
 
 const Portfolio = () => {
   const categories = [
-    "Haircuts & Styling",
-    "Balayage & Highlights",
-    "Root Touch-Ups",
-    "Keratin Treatments",
-    "Luxury Blowouts",
-    "Bridal Hair Styling"
+    "Furniture Crafting",
+    "Cabinetry & Storage",
+    "Feature Doors",
+    "Shelving & Displays",
+    "Outdoor Living",
+    "Custom Projects"
   ];
 
   const ModalVideo = dynamic(
