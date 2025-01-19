@@ -14,84 +14,84 @@ const Service = () => {
 
   const services = [
     {
-      img: "/assets/img/service/haircutting-service.jpg",
-      icon: "/assets/img/service/scissors.svg",
-      text: "Precision haircuts designed to suit your style and personality.",
+      img: "",
+      icon: "",
+      text: "Transform your home with our custom furniture design services.",
       date: "Updated: January 3, 2025",
-      title: "Haircuts & Styling",
+      title: "Custom Furniture Design",
       text1:
-        "At Aurora Hair Spa, we specialize in precision haircuts and styling that reflect your unique personality. Whether you’re looking for a classic cut or a bold new look, our experienced stylists are here to make it happen.",
+        "At Haven Woodworks, we specialize in creating bespoke furniture tailored to your style and needs. Each piece is crafted with precision and care to suit your space perfectly.",
       text2:
-        "A great haircut can transform not just your appearance but also your confidence. Let our experts help you achieve a style you’ll love.",
+        "Whether you’re looking for a statement piece or functional furniture, our expert craftsmen bring your vision to life.",
       text3:
-        "From consultations to finishing touches, our team ensures that every haircut and style is crafted to perfection, making you feel your absolute best.",
+        "From modern designs to timeless classics, let us craft furniture that reflects your unique taste.",
     },
     {
-      img: "/assets/img/service/hair-highlights-service.png",
-      icon: "/assets/img/service/highlights.svg",
-      text: "Enhance your look with vibrant color treatments and highlights.",
+      img: "",
+      icon: "",
+      text: "Enhance your home with expertly crafted cabinetry and storage solutions.",
       date: "Updated: January 3, 2025",
-      title: "Balayage & Highlights",
+      title: "Custom Cabinetry",
       text1:
-        "Our color experts are skilled in balayage, highlights, and custom color treatments to give you a radiant, natural look.",
+        "Our custom cabinetry services provide beautiful and functional storage solutions tailored to your home.",
       text2:
-        "Whether you want subtle highlights, vibrant tones, or full-color transformations, we ensure your hair remains healthy and beautiful throughout the process.",
+        "We work with you to design and build cabinets that match your style while maximizing storage space.",
       text3:
-        "Using top-quality products and personalized techniques, we create colors that enhance your features and make your hair shine.",
+        "From kitchens to bathrooms, every cabinet is crafted with meticulous attention to detail.",
     },
     {
-      img: "/assets/img/service/hair-blowout-service.jpg",
-      icon: "/assets/img/service/hairdryer.svg",
-      text: "Experience the luxury of perfectly styled hair with our blowouts.",
+      img: "",
+      icon: "",
+      text: "Add character to your space with handcrafted rustic barn doors.",
       date: "Updated: January 3, 2025",
-      title: "Luxury Blowouts",
+      title: "Rustic Barn Doors",
       text1:
-        "Indulge in a salon-quality blowout that leaves your hair smooth, shiny, and styled to perfection.",
+        "Our rustic barn doors are crafted from high-quality materials, combining durability with timeless style.",
       text2:
-        "Whether it’s for a special occasion or just a treat for yourself, our blowouts deliver long-lasting results you’ll adore.",
+        "Whether for a modern farmhouse or a classic home, our barn doors are designed to make a statement.",
       text3:
-        "With professional-grade products and tools, we ensure your blowout not only looks great but also feels amazing.",
+        "Choose from a variety of finishes and designs to perfectly match your space.",
     },
     {
-      img: "/assets/img/service/keratin-service.jpg",
-      icon: "/assets/img/service/keratin-bottle.svg",
-      text: "Smooth, frizz-free hair with our professional keratin treatments.",
+      img: "",
+      icon: "",
+      text: "Showcase your style with custom shelving solutions.",
       date: "Updated: January 3, 2025",
-      title: "Keratin Treatments",
+      title: "Custom Shelving",
       text1:
-        "Tired of frizzy, unmanageable hair? Our keratin treatments restore smoothness and shine, making your hair easier to style.",
+        "Create functional and stylish displays with our custom shelving options, tailored to fit your space.",
       text2:
-        "We use safe, effective formulas that nourish your hair while delivering long-lasting results.",
+        "From floating shelves to built-ins, we craft designs that are both practical and visually appealing.",
       text3:
-        "Say goodbye to frizz and hello to effortlessly smooth hair with our customized keratin services.",
+        "Let us help you organize and enhance your home with personalized shelving solutions.",
     },
     {
-      img: "/assets/img/service/bridal-hair-service.jpg",
-      icon: "/assets/img/service/diamond-ring.svg",
-      text: "Perfect your look for your big day with our bridal hair services.",
+      img: "",
+      icon: "",
+      text: "Elevate your outdoor space with custom wood structures.",
       date: "Updated: January 3, 2025",
-      title: "Bridal Hair Styling",
+      title: "Outdoor Wood Structures",
       text1:
-        "Your wedding day deserves a flawless hairstyle. Our bridal hair experts work closely with you to create a look that complements your gown and theme.",
+        "Transform your outdoor living areas with custom wood designs like pergolas, decks, and gazebos.",
       text2:
-        "From classic updos to modern styles, we ensure your hair is picture-perfect for the most important moments.",
+        "Our team creates durable structures that combine functionality with aesthetic appeal.",
       text3:
-        "We offer trial sessions to ensure your wedding day style is exactly what you envision.",
+        "Enjoy outdoor spaces that are perfect for relaxation and entertainment, built to last.",
     },
     {
-      img: "/assets/img/service/scalp-treatment.jpg",
-      icon: "/assets/img/service/woman-hair.svg",
-      text: "Rejuvenate your hair and scalp with our nourishing treatments.",
+      img: "",
+      icon: "",
+      text: "Bring your woodworking vision to life with our custom project services.",
       date: "Updated: January 3, 2025",
-      title: "Scalp Treatments",
+      title: "Bespoke Woodworking",
       text1:
-        "Healthy hair starts with a healthy scalp. Our specialized treatments cleanse, nourish, and revitalize your scalp.",
+        "Our bespoke woodworking services turn your unique ideas into beautifully crafted realities.",
       text2:
-        "Whether you’re dealing with dryness, irritation, or buildup, we tailor treatments to meet your needs.",
+        "From intricate designs to practical solutions, we work closely with you to achieve your goals.",
       text3:
-        "Relax and unwind as we restore balance to your scalp, leaving your hair refreshed and ready to shine.",
+        "No matter the project, our craftsmanship ensures exceptional quality and attention to detail.",
     },
-  ];  
+  ];
 
   const [isOpen7, setIsOpen7] = useState(false);
   const [modalContent, setModalContent] = useState({});
