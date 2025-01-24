@@ -294,7 +294,7 @@ const Portfolio = () => {
               <ul className="flex flex-wrap">
                 {filteredData?.map((item, i) => {
                   return (
-                    <li key={`portfolio-${i}`} className="youtube mb-[50px] w-1/2 float-left pl-[50px] item__">
+                    <li key={`portfolio-${i}`} className="youtube mb-[50px] w-1/2 float-left pr-[50px] item__">
                       <button onClick={() => toggleModal(item)} className="w-full h-full">
                       <div className="list_inner w-full h-full clear-both float-left relative overflow-hidden">
                           <div

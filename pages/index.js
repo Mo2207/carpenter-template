@@ -80,7 +80,7 @@ const Index = ({ data }) => {
           />
         </div>
         </Particles>
-        <div className="main_content absolute top-0 right-0 bottom-0 w-[60%]">
+        <div className="main_content absolute top-0 left-0 bottom-0 w-[60%]">
           {/* HOME */}
           <Home />
           {/* HOME */}
