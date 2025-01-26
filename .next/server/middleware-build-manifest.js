@@ -1,1 +1,34 @@
-self.__BUILD_MANIFEST={polyfillFiles:["static/chunks/polyfills-78c92fac7aa8fdd8.js"],devFiles:[],ampDevFiles:[],lowPriorityFiles:[],rootMainFiles:[],pages:{"/":["static/chunks/webpack-4c6b472640046848.js","static/chunks/framework-64ad27b21261a9ce.js","static/chunks/main-9de93270bb2ef944.js","static/chunks/253-8bae664a93fe67ba.js","static/chunks/791-463fac4e25d6b1cc.js","static/chunks/99-ca588ef21302032d.js","static/chunks/313-38a23211dd02aa4e.js","static/chunks/54-7c62279584e34717.js","static/css/4a6cffd134ab3a0c.css","static/chunks/pages/index-0b004de31786cbbe.js"],"/404":["static/chunks/webpack-4c6b472640046848.js","static/chunks/framework-64ad27b21261a9ce.js","static/chunks/main-9de93270bb2ef944.js","static/chunks/791-463fac4e25d6b1cc.js","static/chunks/313-38a23211dd02aa4e.js","static/css/4a6cffd134ab3a0c.css","static/chunks/pages/404-57dacdb17bb45a9e.js"],"/_app":["static/chunks/webpack-4c6b472640046848.js","static/chunks/framework-64ad27b21261a9ce.js","static/chunks/main-9de93270bb2ef944.js","static/css/79a1a6649b53faab.css","static/chunks/pages/_app-8b70babfd6cd3a48.js"],"/_error":["static/chunks/webpack-4c6b472640046848.js","static/chunks/framework-64ad27b21261a9ce.js","static/chunks/main-9de93270bb2ef944.js","static/chunks/pages/_error-77823ddac6993d35.js"],"/index-particle":["static/chunks/webpack-4c6b472640046848.js","static/chunks/framework-64ad27b21261a9ce.js","static/chunks/main-9de93270bb2ef944.js","static/chunks/253-8bae664a93fe67ba.js","static/chunks/791-463fac4e25d6b1cc.js","static/chunks/99-ca588ef21302032d.js","static/chunks/313-38a23211dd02aa4e.js","static/chunks/54-7c62279584e34717.js","static/css/4a6cffd134ab3a0c.css","static/chunks/pages/index-particle-25563b6586c6ccbb.js"]},ampFirstPages:[]},self.__BUILD_MANIFEST.lowPriorityFiles=["/static/"+process.env.__NEXT_BUILD_ID+"/_buildManifest.js",,"/static/"+process.env.__NEXT_BUILD_ID+"/_ssgManifest.js"];
+self.__BUILD_MANIFEST = {
+  "polyfillFiles": [
+    "static/chunks/polyfills.js"
+  ],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
+    ]
+  },
+  "ampFirstPages": []
+};
+self.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+,"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js",
+
+];
